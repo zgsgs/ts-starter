@@ -1,0 +1,45 @@
+{
+  "name": "@ts-starter/vue",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "A set of completely unstyled, fully accessible UI components for Vue, designed to integrate beautifully with Tailwind CSS.",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "Vue",
+    "Vite",
+    "Handless",
+    "Tailwind CSS",
+    "Unocss"
+  ],
+  "license": "MIT",
+  "author": "zgsgs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zgsgs/ts-starter.git",
+    "directory": "packages/@ts-starter-vue"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "browserslist": [
+    "Chrome >= 51",
+    "iOS >= 10"
+  ],
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "playground": "pnpm dev --filter playground-vue",
+    "clean": "rimraf ./dist"
+  },
+  "bugs": {
+    "url": "https://github.com/zgsgs/ts-starter/issues"
+  },
+  "homepage": "https://github.com/zgsgs/ts-starter#readme",
+  "peerDependencies": {
+    "vue": "^3.2.0"
+  },
+  "devDependencies": {
+    "vue": "^3.2.33"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.web.json",
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "module": "ES6",
+    "target": "ES2018",
+    "lib": ["ESNext"],
+    "paths": {
+      "~/*": [
+        "./*"
+      ],
+      "@/*": [
+        "./packages/*"
+      ],
+    },
+    "types": ["vitest/globals", "vitest/importMeta"]
+  },
+  "include": [
+    "internal",
+    "packages",
+    "types",
+    "tests",
+  ]
+}

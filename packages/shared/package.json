@@ -1,0 +1,19 @@
+{
+  "name": "@ts-starter/shared",
+  "version": "0.0.0",
+  "private": true,
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "zgsgs",
+  "scripts": {
+    "build": "unbuild"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "browserslist": [
+    "Chrome >= 51",
+    "iOS >= 10"
+  ]
+}
